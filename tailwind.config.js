@@ -10,6 +10,10 @@ module.exports = {
           'ABEF5F': '#ABEF5F',
           '1C1C1C': '#1C1C1C',
         },
+        fontFamily: {
+          'manrope': ['"Manrope"', "sans-serif"],
+        },
+        
       },
     },
     plugins: [],
