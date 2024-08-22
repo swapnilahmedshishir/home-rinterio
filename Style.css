@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 .manrope{
     font-family: "Manrope", sans-serif;
 }
+
 #header{
     background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 
 
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-@media only screen and (max-width: 350px) {
+@media (max-width: 380px) {
     .dropdownStyle{
        order: 2;
     }
@@ -23,9 +19,14 @@
     .menuStyle {
         width: 16.2rem;
         position: absolute;
-        left:-11rem;
+        left:-10.5rem;
     }
     .navbar_end {
       display: none;
     }
   }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
