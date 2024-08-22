@@ -5,7 +5,27 @@
 #header{
     background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
+
+@media only screen and (max-width: 350px) {
+    .dropdownStyle{
+       order: 2;
+    }
+    .navbar_start{
+        position: relative;
+    }
+    .menuStyle {
+        width: 16.2rem;
+        position: absolute;
+        left:-11rem;
+    }
+    .navbar_end {
+      display: none;
+    }
+  }
