@@ -1,8 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-.manrope{
+
+/* .manrope{
     font-family: "Manrope", sans-serif;
-}
+} */
 
 #header{
     background: linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
@@ -26,7 +33,4 @@
     }
   }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
